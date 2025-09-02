@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Quick Fix Plumbing",
+        "category": "plumbing",
+        "phone": "(555) 123-4567",
+        "description": "Professional plumbing services including repairs, installations, and emergency calls. Available 24/7.",
+        "ratings": [5, 4, 5, 5, 4],
+        "totalRatings": 5
+    },
+    {
+        "id": 2,
+        "name": "Bright Spark Electrical",
+        "category": "electrical",
+        "phone": "(555) 234-5678",
+        "description": "Licensed electricians for residential and commercial work. Specializing in wiring, fixtures, and electrical repairs.",
+        "ratings": [5, 5, 4, 5, 5],
+        "totalRatings": 5
+    },
+    {
+        "id": 3,
+        "name": "Elite Construction Co",
+        "category": "construction",
+        "phone": "(555) 345-6789",
+        "description": "Full-service construction company handling renovations, additions, and new construction projects.",
+        "ratings": [4, 5, 5, 4, 4],
+        "totalRatings": 5
+    },
+    {
+        "id": 4,
+        "name": "Crystal Clean Services",
+        "category": "cleaning",
+        "phone": "(555) 456-7890",
+        "description": "Professional cleaning services for homes and offices. Eco-friendly products and reliable staff.",
+        "ratings": [5, 5, 5, 4, 5],
+        "totalRatings": 5
+    },
+    {
+        "id": 5,
+        "name": "Yellow Thumb Landscaping",
+        "category": "landscaping",
+        "phone": "(555) 567-8901",
+        "description": "Complete landscaping services including lawn care, garden design, and tree maintenance.",
+        "ratings": [4, 4, 5, 4, 5],
+        "totalRatings": 5
+    },
+    {
+        "id": 6,
+        "name": "Auto Care Plus",
+        "category": "automotive",
+        "phone": "(555) 678-9012",
+        "description": "Full automotive repair and maintenance services. From oil changes to major engine repairs.",
+        "ratings": [5, 4, 4, 5, 4],
+        "totalRatings": 5
+    }
+]

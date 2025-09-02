@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Services Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏘️ Community Services Directory</h1>
+            <p>Find trusted local service providers in your community</p>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for services...">
+            </div>
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="plumbing">Plumbing</button>
+                <button class="category-btn" data-category="electrical">Electrical</button>
+                <button class="category-btn" data-category="construction">Construction</button>
+                <button class="category-btn" data-category="cleaning">Cleaning</button>
+                <button class="category-btn" data-category="landscaping">Landscaping</button>
+                <button class="category-btn" data-category="automotive">Automotive</button>
+                <button class="category-btn" data-category="pintor">Pintor</button>
+            </div>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+            <!-- Services will be populated here -->
+        </div>
+    </div>
+
+    <!-- <button class="add-service-btn" onclick="openModal()">+</button> -->
+
+    <!-- <div class="modal" id="addServiceModal">
+        <div class="modal-content">
+            <h2>Add New Service</h2>
+            <form id="addServiceForm">
+                <div class="form-group">
+                    <label for="serviceName">Service Name</label>
+                    <input type="text" id="serviceName" required>
+                </div>
+                <div class="form-group">
+                    <label for="serviceCategory">Category</label>
+                    <select id="serviceCategory" required>
+                        <option value="">Select a category</option>
+                        <option value="plumbing">Plumbing</option>
+                        <option value="electrical">Electrical</option>
+                        <option value="construction">Construction</option>
+                        <option value="cleaning">Cleaning</option>
+                        <option value="landscaping">Landscaping</option>
+                        <option value="automotive">Automotive</option>
+                        <option value="pintor">Pintor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="servicePhone">Phone Number</label>
+                    <input type="tel" id="servicePhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="serviceDescription">Description</label>
+                    <textarea id="serviceDescription" rows="3" required></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Service</button>
+                </div>
+            </form>
+        </div>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
