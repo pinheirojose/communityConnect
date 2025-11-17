@@ -1,17 +1,19 @@
-/* Base styles (mobile-first) */
+/* ================================
+   Base styles (mobile-first)
+   ================================ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Layout scaffold + background gradient */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     padding: 15px;
 }
-
+/* Main content wrapper */
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -49,6 +51,7 @@ body {
     align-items: stretch;
 } */
 
+/* Search + filter toolbar */
 .controls {
     padding: 20px 15px;
     background: rgba(74, 172, 254, 0.95); /* slightly more opaque for better visibility */
@@ -63,6 +66,7 @@ body {
     backdrop-filter: blur(10px); /* optional: nice frosted effect */
 }
 
+/* Search field styling */
 .search-box input {
     width: 100%;
     padding: 12px 18px;
@@ -73,12 +77,14 @@ body {
     background: white;
 }
 
+/* Glow effect on focus */
 .search-box input:focus {
     outline: none;
     border-color: #4facfe;
     box-shadow: 0 0 15px rgba(79, 172, 254, 0.2);
 }
 
+/* Category button group */
 .category-filter {
     display: flex;
     gap: 8px;
@@ -86,6 +92,7 @@ body {
     justify-content: center;
 }
 
+/* Pill buttons */
 .category-btn {
     padding: 10px 18px;
     border: 2px solid #4facfe;
@@ -105,6 +112,7 @@ body {
     transform: translateY(-1px);
 }
 
+/* Cards layout grid */
 .services-grid {
     padding: 20px 15px;
     display: grid;
@@ -112,6 +120,7 @@ body {
     gap: 20px;
 }
 
+/* Individual service card */
 .service-card {
     background: white;
     border-radius: 15px;
@@ -126,6 +135,7 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
+/* Card header layout */
 .service-header {
     display: flex;
     justify-content: space-between;
@@ -135,12 +145,14 @@ body {
     gap: 8px;
 }
 
+/* Service title */
 .service-name {
     font-size: 1.1rem;
     font-weight: bold;
     color: #333;
 }
 
+/* Category chip */
 .service-category {
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
@@ -154,18 +166,21 @@ body {
     margin-bottom: 12px;
 }
 
+/* Phone line */
 .service-phone {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 6px;
 }
 
+/* Service Description paragraph */
 .service-description {
     color: #777;
     line-height: 1.4;
     font-size: 0.85rem;
 }
 
+/* Ratings footer */
 .rating-section {
     display: flex;
     justify-content: space-between;
@@ -177,11 +192,13 @@ body {
     gap: 8px;
 }
 
+/* Stars wrapper */
 .stars {
     display: flex;
     gap: 4px;
 }
 
+/* Disable pointer when already rated */
 .stars.rated .star {
     cursor: not-allowed;
     opacity: 0.6;
@@ -191,12 +208,14 @@ body {
     transform: none;
 }
 
+/* "You rated" text */
 .rated-indicator {
     color: #28a745;
     font-weight: 600;
     font-size: 0.8rem;
 }
 
+/* Individual star */
 .star {
     font-size: 1.1rem;
     color: #ddd;
@@ -210,17 +229,20 @@ body {
     transform: scale(1.1);
 }
 
+/* Rating metadata */
 .rating-info {
     font-size: 0.85rem;
     color: #666;
 }
 
+/* Empty-state placeholder */
 .empty-state {
     text-align: center;
     padding: 40px 15px;
     color: #666;
 }
 
+/* Empty-state heading */
 .empty-state h3 {
     margin-bottom: 8px;
     font-size: 1.25rem;
@@ -234,6 +256,7 @@ body {
     }
 }
 
+/* Extra-large screens */
 @media (min-width: 900px) {
     .container {
         max-width: 1200px;

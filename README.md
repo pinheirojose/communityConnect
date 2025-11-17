@@ -17,9 +17,7 @@ npm install -g http-server
 
 # Run the server
 http-server -p 8000
-right-click on `index.html`
-
-http://localhost:8000
+right-click on `index.html` or go to http://localhost:8000
 
 - **HTML5** - Structure
 - **CSS3** - Styling with gradients and responsive design
