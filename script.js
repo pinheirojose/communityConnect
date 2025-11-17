@@ -94,17 +94,6 @@ function renderServices() {
                 <div class="service-info">
                     <div class="service-description">${service.description}</div>
                 </div>
-                <div class="rating-section">
-                    <div class="stars ${hasUserRated(service.id) ? 'rated' : ''}" data-service-id="${service.id}">
-                        ${[1, 2, 3, 4, 5].map(star => 
-                            `<span class="star ${star <= avgRating ? 'filled' : ''}" data-rating="${star}">★</span>`
-                        ).join('')}
-                    </div>
-                    <div class="rating-info">
-                        ${avgRating.toFixed(1)} ⭐ (${service.totalRatings} reviews)
-                        ${hasUserRated(service.id) ? '<span class="rated-indicator">• You rated this</span>' : ''}
-                    </div>
-                </div>
             </div>
         `;
     }).join('');
