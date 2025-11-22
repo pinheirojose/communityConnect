@@ -3,76 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Services Directory</title>
+    <title>Évora Serviços</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏘️ Community Services Directory</h1>
-            <p>Find trusted local service providers in your community</p>
+            <h1>🏘️ Évora Serviços</h1>
+            <p>Encontre serviços locais na sua região</p>
         </div>
 
         <div class="controls">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search for services...">
+                <input type="text" id="searchInput" placeholder="Encontre o seu serviço...">
             </div>
             <div class="category-filter">
-                <button class="category-btn active" data-category="all">All</button>
-                <button class="category-btn" data-category="plumbing">Plumbing</button>
-                <button class="category-btn" data-category="electrical">Electrical</button>
-                <button class="category-btn" data-category="construction">Construction</button>
-                <button class="category-btn" data-category="cleaning">Cleaning</button>
-                <button class="category-btn" data-category="landscaping">Landscaping</button>
-                <button class="category-btn" data-category="automotive">Automotive</button>
-                <button class="category-btn" data-category="pintor">Pintor</button>
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="plumbing">Canalizações</button>
+                <button class="category-btn" data-category="electrical">Eletricidade</button>
+                <button class="category-btn" data-category="construction">Construção</button>
+                <button class="category-btn" data-category="cleaning">Limpezas</button>
+                <button class="category-btn" data-category="landscaping">Jardinagem</button>
+                <button class="category-btn" data-category="automotive">Automovel</button>
+                <button class="category-btn" data-category="pintor">Pintura</button>
+                <button class="category-btn scroll-btn" id="scrollToAbout">Sobre</button>
             </div>
         </div>
 
         <div class="services-grid" id="servicesGrid">
             <!-- Services will be populated here -->
         </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Precisa de ajuda? Estamos aqui para si.</p>
+                    <p>📧 <a href="mailto:contacto@evoraservicos.pt">contacto@evoraservicos.pt</a></p>
+                    <p>📞 <a href="tel:+351123456789">+351 123 456 789</a></p>
+                </div> 
+                <div class="footer-section" id="aboutSection">
+                    <h3>Sobre</h3>
+                    <p>Conectando a comunidade de Évora com serviços locais de confiança.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Apoia o projeto</h3>
+                    <p>Ajuda a manter e melhorar o projeto.</p>
+                    <!-- add a button to donate to the project -->
+                </div>
+               
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Évora Serviços. Todos os direitos reservados.</p>
+            </div>
+        </footer>
     </div>
-
-    <!-- <button class="add-service-btn" onclick="openModal()">+</button> -->
-
-    <!-- <div class="modal" id="addServiceModal">
-        <div class="modal-content">
-            <h2>Add New Service</h2>
-            <form id="addServiceForm">
-                <div class="form-group">
-                    <label for="serviceName">Service Name</label>
-                    <input type="text" id="serviceName" required>
-                </div>
-                <div class="form-group">
-                    <label for="serviceCategory">Category</label>
-                    <select id="serviceCategory" required>
-                        <option value="">Select a category</option>
-                        <option value="plumbing">Plumbing</option>
-                        <option value="electrical">Electrical</option>
-                        <option value="construction">Construction</option>
-                        <option value="cleaning">Cleaning</option>
-                        <option value="landscaping">Landscaping</option>
-                        <option value="automotive">Automotive</option>
-                        <option value="pintor">Pintor</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="servicePhone">Phone Number</label>
-                    <input type="tel" id="servicePhone" required>
-                </div>
-                <div class="form-group">
-                    <label for="serviceDescription">Description</label>
-                    <textarea id="serviceDescription" rows="3" required></textarea>
-                </div>
-                <div class="form-buttons">
-                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Add Service</button>
-                </div>
-            </form>
-        </div>
-    </div> -->
-
     <script src="script.js"></script>
 </body>
 </html>

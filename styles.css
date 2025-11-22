@@ -9,7 +9,13 @@
 /* Layout scaffold + background gradient */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #667eea;
+    background-image: url('./assets/community-bg.jpg');
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+	/* opacity:.20; */
     min-height: 100vh;
     padding: 15px;
 }
@@ -248,11 +254,63 @@ body {
     font-size: 1.25rem;
 }
 
+/* Footer section */
+.footer {
+    margin-top: 40px;
+    padding: 30px 20px 20px;
+    background: rgba(74, 172, 254, 0.1);
+    border-top: 1px solid rgba(74, 172, 254, 0.2);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #4facfe;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.footer-section p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #4facfe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #00f2fe;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(74, 172, 254, 0.15);
+    color: #888;
+    font-size: 0.85rem;
+}
+
 /* Larger screens (tablet & desktop) */
 @media (min-width: 600px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -274,5 +332,9 @@ body {
 
     .header p {
         font-size: 1.1rem;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
