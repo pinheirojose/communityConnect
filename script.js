@@ -29,66 +29,10 @@ async function loadServicesData() {
     }
 }
 
-
-/**
- * Sets a cookie with the given name, value, and expiration days
- * @param {string} name - Cookie name
- * @param {string} value - Cookie value
- * @param {number} days - Number of days until expiration
- */
-function setCookie(name, value, days) {
-    const expires = new Date();
-    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
-}
-
-/**
- * Retrieves a cookie value by name
- * @param {string} name - Cookie name to retrieve
- * @returns {string|null} - Cookie value or null if not found
- */
-function getCookie(name) {
-    const nameEQ = name + "=";
-    const ca = document.cookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-}
-
-/**
- * Checks if the current user has already rated a specific service
- * @param {number} serviceId - The ID of the service to check
- * @returns {boolean} - True if user has rated, false otherwise
- */
-function hasUserRated(serviceId) {
-    const ratedServices = getCookie('rated_services');
-    if (!ratedServices) return false;
-    return ratedServices.split(',').includes(serviceId.toString());
-}
-
-/**
- * Marks a service as rated by the current user
- * Stores the service ID in a cookie to prevent duplicate ratings
- * @param {number} serviceId - The ID of the service to mark as rated
- */
-function markServiceAsRated(serviceId) {
-    let ratedServices = getCookie('rated_services');
-    if (!ratedServices) {
-        ratedServices = serviceId.toString();
-    } else {
-        ratedServices += ',' + serviceId.toString();
-    }
-    setCookie('rated_services', ratedServices, 30); // Store for 30 days
-}
-
 /**
  * Renders the filtered and searched services to the grid
  * Filters services based on current category filter and search term
  * Displays empty state if no services match the criteria
- * Adds click handlers for star ratings
  */
 function renderServices() {
     const grid = document.getElementById('servicesGrid');
@@ -110,9 +54,6 @@ function renderServices() {
     }
 
     grid.innerHTML = filteredServices.map(service => {
-        const avgRating = service.ratings.length > 0 ? 
-            service.ratings.reduce((a, b) => a + b, 0) / service.ratings.length : 0;
-        
         return `
             <div class="service-card">
                 <div class="service-header">
@@ -125,45 +66,23 @@ function renderServices() {
                 <div class="service-info">
                     <div class="service-description">${service.description}</div>
                 </div>
+                ${service.socialMedia && (service.socialMedia.facebook || service.socialMedia.instagram) ? `
+                <div class="service-social">
+                    ${service.socialMedia.facebook ? `
+                    <a href="${service.socialMedia.facebook}" target="_blank" rel="noopener noreferrer" class="social-link facebook-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    ` : ''}
+                    ${service.socialMedia.instagram ? `
+                    <a href="${service.socialMedia.instagram}" target="_blank" rel="noopener noreferrer" class="social-link instagram-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    ` : ''}
+                </div>
+                ` : ''}
             </div>
         `;
     }).join('');
-
-    // Add click handlers for stars
-    document.querySelectorAll('.stars').forEach(starsContainer => {
-        const serviceId = parseInt(starsContainer.dataset.serviceId);
-        
-        // Only add click handler if user hasn't rated this service
-        if (!hasUserRated(serviceId)) {
-            starsContainer.addEventListener('click', (e) => {
-                if (e.target.classList.contains('star')) {
-                    const rating = parseInt(e.target.dataset.rating);
-                    rateService(serviceId, rating);
-                }
-            });
-        }
-    });
-}
-
-/**
- * Handles rating a service by the user
- * Prevents duplicate ratings and updates the service's rating data
- * @param {number} serviceId - The ID of the service being rated
- * @param {number} rating - The rating value (1-5)
- */
-function rateService(serviceId, rating) {
-    if (hasUserRated(serviceId)) {
-        alert('You have already rated this service!');
-        return;
-    }
-
-    const service = services.find(s => s.id === serviceId);
-    if (service) {
-        service.ratings.push(rating);
-        service.totalRatings++;
-        markServiceAsRated(serviceId);
-        renderServices();
-    }
 }
 
 /**
