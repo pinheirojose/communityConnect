@@ -3,7 +3,11 @@ let services = [];
 let currentFilter = 'all';
 let currentSearch = '';
 
-// Load services data from external JSON file
+/**
+ * Loads services data from the external JSON file
+ * Fetches services.json and populates the services array
+ * Displays error message if loading fails
+ */
 async function loadServicesData() {
     try {
         const response = await fetch('services.json');
@@ -25,13 +29,24 @@ async function loadServicesData() {
     }
 }
 
-// Cookie utilities
+
+/**
+ * Sets a cookie with the given name, value, and expiration days
+ * @param {string} name - Cookie name
+ * @param {string} value - Cookie value
+ * @param {number} days - Number of days until expiration
+ */
 function setCookie(name, value, days) {
     const expires = new Date();
     expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
     document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
 }
 
+/**
+ * Retrieves a cookie value by name
+ * @param {string} name - Cookie name to retrieve
+ * @returns {string|null} - Cookie value or null if not found
+ */
 function getCookie(name) {
     const nameEQ = name + "=";
     const ca = document.cookie.split(';');
@@ -43,12 +58,22 @@ function getCookie(name) {
     return null;
 }
 
+/**
+ * Checks if the current user has already rated a specific service
+ * @param {number} serviceId - The ID of the service to check
+ * @returns {boolean} - True if user has rated, false otherwise
+ */
 function hasUserRated(serviceId) {
     const ratedServices = getCookie('rated_services');
     if (!ratedServices) return false;
     return ratedServices.split(',').includes(serviceId.toString());
 }
 
+/**
+ * Marks a service as rated by the current user
+ * Stores the service ID in a cookie to prevent duplicate ratings
+ * @param {number} serviceId - The ID of the service to mark as rated
+ */
 function markServiceAsRated(serviceId) {
     let ratedServices = getCookie('rated_services');
     if (!ratedServices) {
@@ -59,6 +84,12 @@ function markServiceAsRated(serviceId) {
     setCookie('rated_services', ratedServices, 30); // Store for 30 days
 }
 
+/**
+ * Renders the filtered and searched services to the grid
+ * Filters services based on current category filter and search term
+ * Displays empty state if no services match the criteria
+ * Adds click handlers for star ratings
+ */
 function renderServices() {
     const grid = document.getElementById('servicesGrid');
     const filteredServices = services.filter(service => {
@@ -114,6 +145,12 @@ function renderServices() {
     });
 }
 
+/**
+ * Handles rating a service by the user
+ * Prevents duplicate ratings and updates the service's rating data
+ * @param {number} serviceId - The ID of the service being rated
+ * @param {number} rating - The rating value (1-5)
+ */
 function rateService(serviceId, rating) {
     if (hasUserRated(serviceId)) {
         alert('You have already rated this service!');
@@ -129,23 +166,54 @@ function rateService(serviceId, rating) {
     }
 }
 
-// Search functionality
+/**
+ * Event listener for search input field
+ * Updates currentSearch and re-renders services as user types
+ */
 document.getElementById('searchInput').addEventListener('input', (e) => {
     currentSearch = e.target.value;
     renderServices();
 });
 
-// Category filter functionality
+/**
+ * Event listeners for category filter buttons
+ * Updates active button state and filters services by category
+ * Excludes the scroll button from category filtering logic
+ */
 document.querySelectorAll('.category-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-        document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+        // Skip scroll button - it has its own handler
+        if (btn.classList.contains('scroll-btn')) {
+            return;
+        }
+        
+        document.querySelectorAll('.category-btn').forEach(b => {
+            if (!b.classList.contains('scroll-btn')) {
+                b.classList.remove('active');
+            }
+        });
         e.target.classList.add('active');
         currentFilter = e.target.dataset.category;
         renderServices();
     });
 });
 
-// Initialize the application
+/**
+ * Event listener for the "Sobre" (About) button
+ * Smoothly scrolls the page to the about section in the footer
+ */
+document.getElementById('scrollToAbout').addEventListener('click', (e) => {
+    e.preventDefault();
+    const aboutSection = document.getElementById('aboutSection');
+    if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+});
+
+/**
+ * Initializes the application when the DOM is fully loaded
+ * Loads services data from the JSON file
+ */
 document.addEventListener('DOMContentLoaded', function() {
     loadServicesData();
 });
