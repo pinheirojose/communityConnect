@@ -66,7 +66,7 @@ function renderServices() {
                 <div class="service-info">
                     <div class="service-description">${service.description}</div>
                 </div>
-                ${service.socialMedia && (service.socialMedia.facebook || service.socialMedia.instagram) ? `
+                ${service.socialMedia && (service.socialMedia.facebook || service.socialMedia.instagram || service.socialMedia.google || service.socialMedia.website) ? `
                 <div class="service-social">
                     ${service.socialMedia.facebook ? `
                     <a href="${service.socialMedia.facebook}" target="_blank" rel="noopener noreferrer" class="social-link facebook-link" aria-label="Facebook">
@@ -76,6 +76,16 @@ function renderServices() {
                     ${service.socialMedia.instagram ? `
                     <a href="${service.socialMedia.instagram}" target="_blank" rel="noopener noreferrer" class="social-link instagram-link" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
+                    </a>
+                    ` : ''}
+                    ${service.socialMedia.google ? `
+                    <a href="${service.socialMedia.google}" target="_blank" rel="noopener noreferrer" class="social-link google-link" aria-label="Google Reviews">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    ` : ''}
+                    ${service.socialMedia.website ? `
+                    <a href="${service.socialMedia.website}" target="_blank" rel="noopener noreferrer" class="social-link website-link" aria-label="Website">
+                        <i class="fas fa-globe"></i>
                     </a>
                     ` : ''}
                 </div>
