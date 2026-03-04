@@ -45,6 +45,7 @@
                     <p>Precisa de ajuda? Estamos aqui para si.</p>
                     <p>📧 <a href="mailto:contacto@evoraservicos.pt">contacto@evoraservicos.pt</a></p>
                     <p>📞 <a href="tel:+351123456789">+351 123 456 789</a></p>
+                    <p><button type="button" class="footer-cta-btn" id="openPricingModal">Quero fazer parte da lista</button></p>
                 </div> 
                 <div class="footer-section" id="aboutSection">
                     <h3>Sobre</h3>
@@ -61,6 +62,66 @@
                 <p>&copy; 2024 Évora Serviços. Todos os direitos reservados.</p>
             </div>
         </footer>
+
+        <!-- Pricing / tiers modal -->
+        <div class="modal-overlay" id="pricingModal" aria-hidden="true">
+            <div class="modal pricing-modal" role="dialog" aria-modal="true" aria-labelledby="pricingModalTitle">
+                <div class="modal-header">
+                    <h2 id="pricingModalTitle">Quero fazer parte da lista</h2>
+                    <button type="button" class="modal-close" id="closePricingModal" aria-label="Fechar">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-intro">
+                        Escolha o plano que melhor se adapta às necessidades do seu negócio.
+                    </p>
+                    <div class="tiers-grid">
+                        <div class="tier-card">
+                            <div class="tier-header">
+                                <h3>Tier 1 · Gratuito</h3>
+                                <p class="tier-price">0€</p>
+                            </div>
+                            <p class="tier-tagline">Comece de forma simples.</p>
+                            <ul class="tier-features">
+                                <li>O serviço é adicionado à lista de serviços</li>
+                                <li>Mostramos a informação que nos providenciar</li>
+                                <li>Ligação direta para o seu contacto</li>
+                            </ul>
+                        </div>
+
+                        <div class="tier-card tier-featured">
+                            <div class="tier-header">
+                                <h3>Tier 2 · 25€</h3>
+                                <p class="tier-price">25€</p>
+                            </div>
+                            <p class="tier-tagline">Ideal para começar a ter presença online.</p>
+                            <ul class="tier-features">
+                                <li>Tudo do Tier 1</li>
+                                <li>Criamos as suas redes sociais (ex: Facebook, Instagram)</li>
+                                <li>Configuração inicial das páginas e identidade básica</li>
+                            </ul>
+                        </div>
+
+                        <div class="tier-card">
+                            <div class="tier-header">
+                                <h3>Tier 3 · 30€/mês</h3>
+                                <p class="tier-price">30€/mês</p>
+                            </div>
+                            <p class="tier-tagline">Para quem quer presença consistente e atualizada.</p>
+                            <ul class="tier-features">
+                                <li>Tudo dos Tiers anteriores</li>
+                                <li>Manutenção mensal das suas redes sociais</li>
+                                <li>Atualizações regulares de conteúdo e otimização</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="modal-footer-note">
+                        Para aderir a um dos planos, envie-nos um email para
+                        <a href="mailto:contacto@evoraservicos.pt?subject=Quero%20fazer%20parte%20da%20lista">contacto@evoraservicos.pt</a>
+                        indicando o Tier pretendido e os dados do seu serviço.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -140,9 +140,50 @@ document.getElementById('scrollToAbout').addEventListener('click', (e) => {
 });
 
 /**
+ * Setup pricing modal open/close behaviour
+ */
+function setupPricingModal() {
+    const openBtn = document.getElementById('openPricingModal');
+    const overlay = document.getElementById('pricingModal');
+    const closeBtn = document.getElementById('closePricingModal');
+
+    if (!openBtn || !overlay) return;
+
+    const closeModal = () => {
+        overlay.classList.remove('is-open');
+        overlay.setAttribute('aria-hidden', 'true');
+    };
+
+    openBtn.addEventListener('click', () => {
+        // scrollY  screenY
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+        overlay.style.top = `${scrollY}px`;
+        overlay.classList.add('is-open');
+        overlay.setAttribute('aria-hidden', 'false');
+    });
+
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+    }
+
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            closeModal();
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('is-open')) {
+            closeModal();
+        }
+    });
+}
+
+/**
  * Initializes the application when the DOM is fully loaded
  * Loads services data from the JSON file
  */
 document.addEventListener('DOMContentLoaded', function() {
     loadServicesData();
+    setupPricingModal();
 });
