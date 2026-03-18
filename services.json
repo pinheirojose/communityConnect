@@ -1,56 +1,160 @@
 [
     {
         "id": 1,
-        "name": "Quick Fix Plumbing",
-        "category": "plumbing",
-        "phone": "(555) 123-4567",
-        "description": "Professional plumbing services including repairs, installations, and emergency calls. Available 24/7.",
-        "ratings": [5, 4, 5, 5, 4],
-        "totalRatings": 5
+        "name": "MU Serviços",
+        "category": "canalizacao",
+        "phone": "924 270 881",
+        "description": "Técnico de Canalizações Certificado - Executamos todos os Serviços de Canalização e pequenas reparações domésticas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/MUServicos/",
+            "google": "https://share.google/BsKlwwZMLQ8iJptV2"
+        }
     },
     {
         "id": 2,
-        "name": "Bright Spark Electrical",
-        "category": "electrical",
-        "phone": "(555) 234-5678",
-        "description": "Licensed electricians for residential and commercial work. Specializing in wiring, fixtures, and electrical repairs.",
-        "ratings": [5, 5, 4, 5, 5],
-        "totalRatings": 5
+        "name": "Romy Maozinhas",
+        "category": "construcao",
+        "phone": "965 717 522 / 927 161 156",
+        "description": "Desde 2015 temos desenvolvido várias técnicas e melhorias na nossa área de construção e remodelação, o que nos ajudou a transformar o nosso sonho não apenas numa visão mas numa realidade. Temos feito vários trabalhos ao longo dos anos mostrando sempre empenho em todas as atividades.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/people/Romy-Maozinhas/61577136398082/",
+            "instagram": "https://www.instagram.com/romymaozinhasof/",
+            "website": "https://www.romymaozinhas.pt/"
+        }
     },
     {
         "id": 3,
-        "name": "Elite Construction Co",
-        "category": "construction",
-        "phone": "(555) 345-6789",
-        "description": "Full-service construction company handling renovations, additions, and new construction projects.",
-        "ratings": [4, 5, 5, 4, 4],
-        "totalRatings": 5
+        "name": "Ecolava",
+        "category": "limpeza",
+        "phone": "266 744 554",
+        "description": "A primeira lavandaria nasceu em 1994 e a segunda foi aberta em 1996. Aqui, existem serviços de lavagem a húmido, secagem e passagem a ferro. Os preços são económicos e existem condições especiais para restaurantes, hotéis e similares.",
+        "socialMedia": {
+            "google": "https://share.google/rdC01XXODzHWaHtxm"
+        }
     },
     {
         "id": 4,
-        "name": "Crystal Clean Services",
-        "category": "cleaning",
-        "phone": "(555) 456-7890",
-        "description": "Professional cleaning services for homes and offices. Eco-friendly products and reliable staff.",
-        "ratings": [5, 5, 5, 4, 5],
-        "totalRatings": 5
+        "name": "5 à Sec",
+        "category": "limpeza",
+        "phone": "935336811",
+        "description": "As lavandarias 5àsec surgiram em 1968 com base num conceito inovador de oferta de prestação de serviços de limpeza a seco e lavandaria acessível a todos, apresentando uma tabela de preços simples com apenas 5 preços (daí o «5» de 5àsec) e uma entrega rápida dos artigos.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/5asecportugal",
+            "instagram": "https://www.instagram.com/5asecportugal/",
+            "website": "https://www.5asec.pt/",
+            "google": "https://share.google/VqYNoyECLBGIMrh7v"
+        }
     },
     {
         "id": 5,
-        "name": "Yellow Thumb Landscaping",
-        "category": "landscaping",
-        "phone": "(555) 567-8901",
-        "description": "Complete landscaping services including lawn care, garden design, and tree maintenance.",
-        "ratings": [4, 4, 5, 4, 5],
-        "totalRatings": 5
+        "name": "Revitta Alentejo",
+        "category": "limpeza",
+        "phone": "933 154 584",
+        "description": "Limpeza de Sofás | Cadeiras | Colchões | Carpetes / Para Carros Limpeza e Proteção interiores | Estofos | Farois",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61565008838939",
+            "instagram": "https://www.instagram.com/revitta_alentejo"
+        }
     },
     {
         "id": 6,
-        "name": "Auto Care Plus",
-        "category": "automotive",
-        "phone": "(555) 678-9012",
-        "description": "Full automotive repair and maintenance services. From oil changes to major engine repairs.",
-        "ratings": [5, 4, 4, 5, 4],
-        "totalRatings": 5
+        "name": "Clean Center",
+        "category": "limpeza",
+        "phone": "935 488 174",
+        "description": "Limpeza e higienização dos sofás, garantem aumento da qualidade vida, conforto e bem-estar na sua",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61555768946934",
+            "instagram": "https://www.instagram.com/cleancenter.portugal/",
+            "google": "https://share.google/rRfSmOo6NpBa75uxX",
+            "website": "https://sites.google.com/view/cleancenterhigienizacao"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Boxpneus",
+        "category": "automovel",
+        "phone": "963 979 721",
+        "description": "Somos uma oficina comprometida em fornecer pneus de alta qualidade e serviços excecionais aos nossos clientes. O nosso objetivo é atender a todas as necessidades dos nossos clientes, oferecendo uma ampla variedade de pneus de alta qualidade, além do serviço de alinhamento de pneus. Para maior comodidade, recolhemos e entregamos o seu veículo onde estiver.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/p/Boxpneus-100091400850811/",
+            "instagram": "https://www.instagram.com/boxpneusevora/",
+            "google": "https://share.google/sHo8LtnVNjM9Ia7zu",
+            "website": "https://www.boxpneus.pt/"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Eletrolife",
+        "category": "eletricidade",
+        "phone": "961 978 179",
+        "description": "Instalações elétricas de baixa tensão. Ambiente internos, externos e em baixadas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100025925776461"
+        }
+    },
+    {
+        "id": 9,
+        "name": "EletroLuis",
+        "category": "eletricidade",
+        "phone": "969 369 029",
+        "description": "Instalações e reparações eletricas. Instalação e substituição de tomadas, interruptores e candeeiros. Remodelações de instalções antigas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/groups/308012493513782/user/100012910813265/"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Miguel Guerreiro",
+        "category": "eletricidade",
+        "phone": "925 015 688",
+        "description": "Montagem e reparação de redes elétricas. Instalação de eletrodomésticos",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/miguel.guerreiro.31105/"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Eléctri-Site",
+        "category": "eletricidade",
+        "phone": "969 194 083",
+        "description": "Instalação, reparação, manutenção, ensaios e análise de energia em instalações elétricas residenciais, comerciais e industriais no (Distrito de Évora).",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/apvelectrisite/",
+            "instagram": "https://www.instagram.com/electrisiteantoniopedrovalente/",
+            "website": "https://www.antoniopedrovalente.com/"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Gouveia Eletricista",
+        "category": "eletricidade",
+        "phone": "965 683 131",
+        "description": "Instalação residêncial e comercial. Instalação de Eletrobomba e Wallbox. Manutenção e Reparação de avarias elétricas",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/RicardoGouveia07/",
+            "instagram": "https://www.instagram.com/gouveia.eletricista/"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Quintais Limpos",
+        "category": "jardinagem",
+        "phone": "962 800 709",
+        "description": "Serviços de limpeza de quintais, terrenos e similares. Limpeza e corte de árvores, arbustos, corte de ervas, limpeza e manutenção de canteiros, entre outros serviços.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100077829060600",
+            "instagram": "https://www.instagram.com/quintaislimpos/",
+            "google": "https://share.google/UoVnBW6RUDOxANmuy"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Verde Campo",
+        "category": "jardinagem",
+        "phone": "936 227 383",
+        "description": "Serviços de Jardinagem. Limpeza de terrenos, quintas e quintais. Corte e limpeza de árvores.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100009430857210"
+        }
     }
 ]
