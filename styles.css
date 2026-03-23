@@ -382,6 +382,47 @@ body {
     text-decoration: underline;
 }
 
+.support-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.support-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    border: 1px solid #dee2e6;
+    background: #ffffff;
+    color: #212529;
+    text-decoration: none;
+    transition: transform 0.1s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.support-icon i {
+    font-size: 18px;
+}
+
+.support-icon:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-color: #adb5bd;
+}
+
+.support-icon-coffee i {
+    color: #c56d2d;
+}
+
+.support-icon-kofi i {
+    color: #f16061;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
