@@ -4,6 +4,19 @@ let currentFilter = 'all';
 let currentSearch = '';
 
 /**
+ * Shuffles array in place (Fisher–Yates). Used once after loading services.
+ * @param {Array} array - Array to shuffle
+ * @returns {Array} The same array reference
+ */
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+/**
  * Loads services data from the external JSON file
  * Fetches services.json and populates the services array
  * Displays error message if loading fails
@@ -15,6 +28,7 @@ async function loadServicesData() {
             throw new Error('Failed to load services data');
         }
         services = await response.json();
+        shuffleArray(services);
         renderServices();
     } catch (error) {
         console.error('Error loading services data:', error);
