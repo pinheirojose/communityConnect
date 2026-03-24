@@ -156,5 +156,89 @@
         "socialMedia": {
             "facebook": "https://www.facebook.com/profile.php?id=100009430857210"
         }
+    },
+    {
+        "id": 15,
+        "name": "Fábio Lopes",
+        "category": "canalizacao",
+        "phone": "926 333 479",
+        "description": "Remodelações / Pinturas / Isolamentos / Canalizações / Limpeza de Telhados / Manutenção de Quintais",
+        "socialMedia": {
+            
+        }
+    },
+    {
+        "id": 16,
+        "name": "Party Zone",
+        "category": "lazer",
+        "phone": "961 193 790",
+        "description": "Animação e aniversários",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/PartyzonePartyzonevora",
+            "instagram": "https://www.instagram.com/party___zone/"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Era uma vez",
+        "category": "lazer",
+        "phone": "",
+        "description": "Decoração, catering e momentos únicos",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61569969796165",
+            "instagram": "https://www.instagram.com/eraumavez__2024"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Luis Chagas",
+        "category": "pintura",
+        "phone": "928 067 757",
+        "description": "Pinturas interiores e exteriores / Trabalho de pedreiro",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 19,
+        "name": "Pinto & Monteiro",
+        "category": "pintura",
+        "phone": "926 306 032 / 926 808 225",
+        "description": "Pinturas interiores e exteriores / Impremeabilização / Capoto / Colocação de chão flutuante",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 20,
+        "name": "JM Pinturas",
+        "category": "pintura",
+        "phone": "925 838 294",
+        "description": "Especialistas em pintura residencial, com acabamento profissional, materiais de qualidade e atenção ao detalhe. Trabalhamos com cumprimento de prazos, organização e total compromisso com o resultado final. Peça o seu orçamento.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/jhmpintura/",
+            "instagram": "https://www.instagram.com/jhonesmaiapintura/",
+            "website": "https://jhonesmaiapintura.pt/"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Luís Rafael - ACC",
+        "category": "automovel",
+        "phone": "965 775 798",
+        "description": "Auto Check Center é uma rede de oficinas desenvolvida em Portugal pela Create Business.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/luisrafaelacc",
+            "website": "https://www.autocheckcenter.pt/"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Activa Mecânica",
+        "category": "automovel",
+        "phone": "963 475 399",
+        "description": "Mecânica Geral | Diagnósticos | Revisões",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61581324989670",
+            "instagram": "https://www.instagram.com/activamecanica"
+        }
     }
 ]
