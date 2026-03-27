@@ -1,0 +1,24 @@
+{
+  "name": "community-connect",
+  "version": "1.0.0",
+  "description": "A community-driven directory of local services with ratings and categories. Find trusted local service providers in your community with an intuitive, searchable interface.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinheirojose/communityConnect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinheirojose/communityConnect/issues"
+  },
+  "homepage": "https://github.com/pinheirojose/communityConnect#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
