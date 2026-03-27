@@ -142,16 +142,22 @@ document.querySelectorAll('.category-btn').forEach(btn => {
 });
 
 /**
- * Event listener for the "Sobre" (About) button
- * Smoothly scrolls the page to the about section in the footer
+ * Scroll helper for footer shortcut buttons
+ * @param {string} buttonId - Trigger button id
+ * @param {string} targetId - Target section id
  */
-document.getElementById('scrollToAbout').addEventListener('click', (e) => {
-    e.preventDefault();
-    const aboutSection = document.getElementById('aboutSection');
-    if (aboutSection) {
-        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-});
+function setupScrollShortcut(buttonId, targetId) {
+    const button = document.getElementById(buttonId);
+    if (!button) return;
+
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.getElementById(targetId);
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+}
 
 /**
  * Initializes the application when the DOM is fully loaded
@@ -159,4 +165,6 @@ document.getElementById('scrollToAbout').addEventListener('click', (e) => {
  */
 document.addEventListener('DOMContentLoaded', function() {
     loadServicesData();
+    setupScrollShortcut('scrollToContactos', 'contactSection');
+    setupScrollShortcut('scrollToApoia', 'supportSection');
 });

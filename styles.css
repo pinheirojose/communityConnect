@@ -52,6 +52,11 @@ body {
     font-weight: 400;
 }
 
+.header .subtitle {
+    max-width: 720px;
+    margin: 10px auto 0;
+}
+
 /* .controls {
     padding: 20px 15px;
     background: rgba(74, 172, 254, 0.05);
@@ -130,6 +135,20 @@ body {
     background: #212529;
     color: #ffffff;
     border-color: #212529;
+}
+
+/* Footer shortcut buttons (Contactos / Apoia) */
+.category-btn.scroll-btn {
+    background: #f1f3f5;
+    border-color: #ced4da;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.category-btn.scroll-btn:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+    color: #212529;
 }
 
 /* Cards layout grid */
@@ -354,6 +373,12 @@ body {
     grid-template-columns: 1fr;
     gap: 25px;
     margin-bottom: 20px;
+    justify-items: center;
+}
+
+.contact-section {
+    width: 100%;
+    max-width: 860px;
 }
 
 .footer-section h3 {
@@ -378,6 +403,77 @@ body {
 }
 
 .footer-section a:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
+/* Contact section in footer */
+.contact-section {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.contact-section h3 {
+    color: #1a1a1a;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.contact-intro {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.contact-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.contact-item {
+    border: 1px solid #edf0f2;
+    border-radius: 10px;
+    background: #f8f9fa;
+    padding: 10px 12px;
+}
+
+.contact-item strong {
+    display: block;
+    color: #212529;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.contact-item p {
+    color: #6c757d;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contact-details {
+    border-top: 1px dashed #dee2e6;
+    padding-top: 10px;
+}
+
+.contact-details p {
+    margin-bottom: 6px;
+    color: #495057;
+}
+
+.contact-details a {
+    color: #495057;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
     color: #212529;
     text-decoration: underline;
 }
@@ -431,6 +527,27 @@ body {
     font-size: 0.85rem;
 }
 
+.footer-support {
+    margin-bottom: 14px;
+}
+
+.footer-support h3 {
+    color: #1a1a1a;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.footer-support p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.footer-support .support-icons {
+    justify-content: center;
+}
+
 /* Larger screens (tablet & desktop) */
 @media (min-width: 600px) {
     .services-grid {
@@ -438,8 +555,12 @@ body {
         gap: 25px;
     }
 
+    .contact-options {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .footer-content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -464,6 +585,6 @@ body {
     }
 
     .footer-content {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
     }
 }
