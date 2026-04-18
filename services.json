@@ -240,5 +240,144 @@
             "facebook": "https://www.facebook.com/profile.php?id=61581324989670",
             "instagram": "https://www.instagram.com/activamecanica"
         }
+    },
+    {
+        "id": 23,
+        "name": "Tio Hortinhas",
+        "category": "lazer",
+        "phone": "964 851 263",
+        "description": "Venha fazer a festa mais original e inesquecível. Temos muito espaço , animais, e diversão.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100065452061205"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Pequeno Bosque",
+        "category": "lazer",
+        "phone": "936 573 466",
+        "description": "Brincar livre na natureza / Atividades criativas e sensoriais para crianças, famílias e adultos",
+        "socialMedia": {
+            "instagram": "https://www.instagram.com/pequenobosque.natureplay/"
+        }
+    },
+    {
+        "id": 25,
+        "name": "GarnArte",
+        "category": "construcao",
+        "phone": "961 222 354",
+        "description": "Remodelações",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 26,
+        "name": "Evora Tem",
+        "category": "construcao",
+        "phone": "932 946 968",
+        "description": "Limpeza | Remodelação | Pintura",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61564984797844",
+            "instagram": "https://www.instagram.com/evoratem/"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Sérgio Pinelas",
+        "category": "eletricidade",
+        "phone": "967 919 635",
+        "description": "Todo o tipo de serviços elétricos",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 28,
+        "name": "Limpezas que Dão Brilho - Mafalda Silveiro",
+        "category": "limpeza",
+        "phone": "968 751 323",
+        "description": "Limpezas Domésticas ( Casas, Condominios e Escritórios) | Passagem a Ferro",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61573276302751"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Sonhos & Encanto",
+        "category": "lazer",
+        "phone": "",
+        "description": "Decoração e organização de eventos | Criamos memórias, emoções e momentos inesquecíveis",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61573351223174"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Obras by Daniel",
+        "category": "construcao",
+        "phone": "967 671 744",
+        "description": "Construção, Remodelação, Especialistas em impermeabilização eficiente, Pintura e Caixilharia PVC",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/obrasbydaniel/",
+            "instagram": "https://www.instagram.com/obrasbydaniel/"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Check-Up Lar",
+        "category": "canalizacao",
+        "phone": "924 041 340",
+        "description": "Deteção de fugas de água | Vídeo-inspeção em tubagens | Inspeções técnicas em edifício",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/checkuplar/",
+            "instagram": "https://www.instagram.com/checkuplar.pt",
+            "website": "https://checkup-lar.pt/"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Vitor Cotovio",
+        "category": "canalizacao",
+        "phone": "914 944 135",
+        "description": "Todos os serviços de canalização",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100063543851355"
+        }
+    },
+    {
+        "id": 33,
+        "name": "Aldeia das Aromáticas",
+        "category": "jardinagem",
+        "phone": "961 129 236",
+        "description": "Construção, remodelação e manutenção de Jardins, Projetos de Arquitetura Paisagista com criatividade e qualidade. Comercio de plantas aromáticas e medicinais.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/aldeiadasaromaticas/",
+            "instagram": "https://www.instagram.com/aldeiadasaromaticas.pt/",
+            "website": "https://aldeiadasaromaticas.pt/"
+        }
+    },
+    {
+        "id": 34,
+        "name": "Evorajardins",
+        "category": "jardinagem",
+        "phone": "266 769 578",
+        "description": "A Évorajardins, Lda. é uma empresa que se dedica à concepção e manutenção de jardins e espaços verdes em geral",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/EvoJardins",
+            "instagram": "https://www.instagram.com/evojardins/",
+            "website": "https://evojardins.pt/"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Alengreen",
+        "category": "jardinagem",
+        "phone": "916 184 072",
+        "description": "A Alengreen, Lda é uma empresa de referência para a manutenção, design e construção de jardins no distrito de Évora.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/alengreenlda/",
+            "instagram": "https://www.instagram.com/alengreen_lda",
+            "website": "https://alengreen.com/"
+        }
     }
+
 ]
