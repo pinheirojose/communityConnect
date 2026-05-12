@@ -519,6 +519,10 @@ body {
     color: #f16061;
 }
 
+.support-icon-stripe i {
+    color: #635bff;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 20px;

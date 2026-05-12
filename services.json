@@ -378,6 +378,135 @@
             "instagram": "https://www.instagram.com/alengreen_lda",
             "website": "https://alengreen.com/"
         }
+    },
+    {
+        "id": 36,
+        "name": "Os Sem Pingas",
+        "category": "pintura",
+        "phone": "967 443 473",
+        "description": "Os Sem Pingas é uma empresa especializada em pintura profissional. Peça-nos o seu Orçamento Grátis!",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/os.sem.pingas"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Bacelo Repara",
+        "category": "pintura",
+        "phone": "926 390 476",
+        "description": "Bacelo Repara — Pintura e reparações com qualidade. Orçamentos gratuitos.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100078254172929"
+        }
+    },
+    {
+        "id": 38,
+        "name": "RC Pinturas & Remodelações",
+        "category": "pintura",
+        "phone": "937 701 890",
+        "description": "Executamos todo o tipo de pinturas e remodelações",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61586860238099"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Augusto Caixinha-Reparação Automovel, Lda.",
+        "category": "automovel",
+        "phone": "266 751 112",
+        "description": "Oficina de bate-chapas e pintura | Mudança de óleo",
+        "socialMedia": {
+            "google": "https://share.google/fIJhWozagXuM0LtJi"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Auto Caldeirinha",
+        "category": "automovel",
+        "phone": "933 536 276",
+        "description": "Manutenção • Reparação • Diagnóstico  |  A melhor opção começa na prevenção",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61574366496705",
+            "instagram": "https://www.instagram.com/auto_caldeirinha",
+            "google": "https://share.google/U1VvFqHChZbtjBrcV"
+        }
+    },
+    {
+        "id": 41,
+        "name": "HautoJabe - Oficina Automóvel",
+        "category": "automovel",
+        "phone": "967 348 429",
+        "description": "Oficina de reparação de Automóveis e Equipamentos. Formados em eletricidade, eletrónica e mecânica.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/hautojabe.pt/",
+            "website": "https://www.hautojabe.com.pt/",
+            "google": "https://share.google/ypKzN0v0vLQeazLn3"
+        }
+    },
+    {
+        "id": 42,
+        "name": "JF Construções Obras e Remodelações",
+        "category": "construcao",
+        "phone": "938 227 825",
+        "description": "Transformamos os seus projetos em realidade. Especialistas em Remodelações, Pinturas e Acabamentos.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61586500826434",
+            "instagram": "https://www.instagram.com/jf.construcoes.mora/",
+            "website": "https://jfconstrucoes.vercel.app/"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Luis Antonio Palhas Sardinha",
+        "category": "construcao",
+        "phone": "965 660 929",
+        "description": "Obras | Remodelações | Pinturas ",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/luisantonio.palhassardinha/"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Dr Roturas",
+        "category": "canalizacao",
+        "phone": "915 947 770",
+        "description": "Especialistas em desentupimentos e canalização, deteção de roturas de água e esgotos.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61580738630376"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Limpeza Mágica",
+        "category": "limpeza",
+        "phone": "926 055 518",
+        "description": "A limpeza que o seu espaço merece. O descanso que você precisa. Deixe a rotina de limpezas connosco. Serviços profissionais de confiança para casas, escritórios e condomínios em Évora e arredores.",
+        "socialMedia": {
+            "website": "https://limpezamagica.com/"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Mariana Cangalhas - EboraKids",
+        "category": "lazer",
+        "phone": "960 092 354 | 966 929 466",
+        "description": "Se procura um espaço para realizar a sua festa de aniversário, eventos, batizados, festas de grupos, despedidas de solteiro etc, Nós temos a solução para si. Reserve já a sua festa !",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/eborakids.kids/",
+            "google": "https://share.google/6qIeDMBqWnHKUGzah"
+        }
+    },
+    {
+        "id": 47,
+        "name": "PikiTown",
+        "category": "lazer",
+        "phone": "932 017 910",
+        "description": "Festas inesquecíveis para crianças | Espaços temáticos ",
+        "socialMedia": {
+            "facebook": "http://facebook.com/profile.php?id=61580114173342",
+            "instagram": "https://www.instagram.com/pikitown/",
+            "google": "https://share.google/gCafKVXfZQEtJdzOj"
+        }
     }
 
 ]
