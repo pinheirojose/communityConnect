@@ -167,4 +167,11 @@ document.addEventListener('DOMContentLoaded', function() {
     loadServicesData();
     setupScrollShortcut('scrollToContactos', 'contactSection');
     setupScrollShortcut('scrollToApoia', 'supportSection');
+
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
 });
