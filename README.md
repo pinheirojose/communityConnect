@@ -2,6 +2,12 @@
 
 Site que lista serviços locais em Évora: pesquisa, filtros por categoria e cartões com contacto e redes sociais. Os dados vêm de `services.json` e a página é montada com JavaScript.
 
+## Site publicado
+
+O projeto está em produção na [Vercel](https://vercel.com/). Pode ser acedido em:
+
+**https://evoraservicos.vercel.app/**
+
 ## Como correr
 
 Para correr num servidor local. 
