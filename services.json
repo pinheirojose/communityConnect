@@ -507,6 +507,50 @@
             "instagram": "https://www.instagram.com/pikitown/",
             "google": "https://share.google/gCafKVXfZQEtJdzOj"
         }
+    },
+    {
+        "id": 48,
+        "name": "VCVet - Vera Carriço",
+        "category": "veterinaria",
+        "phone": "937 795 801",
+        "description": "Saúde, bem-estar e amor em cada visita.    Consultas ao domicílio | Vacinação | Microships e Registos | Desparasitação | Check-ups | Acompanhamento de animais séniores | Orientação Nutricional",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 49,
+        "name": "Hospital Veterinário - Muralha de Évora",
+        "category": "veterinaria",
+        "phone": "266 771 232",
+        "description": "Hospital Veterinário Muralha de Évora, o nosso corpo clínico e a nossa equipa de apoio têm para lhe oferecer um serviço médico-veterinário de excelência para os seus animais de companhia, animais de produção e equinos, o que nos permite ser um Hospital de referência da nossa região",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/hvetmuralha",
+            "instagram": "https://www.instagram.com/hvetmuralha/",
+            "website": "https://www.hvetmuralha.pt/"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Patas & Companhia - Clínica Veterinária, Évora",
+        "category": "veterinaria",
+        "phone": "961 648 644",
+        "description": "Na Patas & Companhia, oferecemos uma ampla gama de serviços de alta qualidade para garantir a saúde e o bem-estar do seu animal de estimação.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/patas.companhia/",
+            "instagram": "https://www.instagram.com/patascompanhia/",
+            "website": "https://www.hvetmuralha.pt/"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Aulas de Yoga - Liliana Rato",
+        "category": "bemestar",
+        "phone": "926 843 391",
+        "description": "Aulas de Yoga | Adultos | Gestante e pós parto | Mãe e bebé | Crianças e Eventos",
+        "socialMedia": {
+            "instagram": "https://www.instagram.com/lilianayoga.pt/",
+            "website": "https://lilianayoga.pt/"
+        }
     }
 
 ]
