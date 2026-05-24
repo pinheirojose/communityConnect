@@ -8,8 +8,6 @@ O site está oficialmente publicado em:
 
 **https://www.evoraservicos.pt**
 
-Alojado na [Vercel](https://vercel.com/).
-
 ## Como correr
 
 Para correr num servidor local. 
