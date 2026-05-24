@@ -4,9 +4,9 @@ Site que lista serviços locais em Évora: pesquisa, filtros por categoria e car
 
 ## Site publicado
 
-O projeto está em produção na [Vercel](https://vercel.com/). Pode ser acedido em:
+O site está oficialmente publicado em:
 
-**https://evoraservicos.vercel.app/**
+**https://www.evoraservicos.pt**
 
 ## Como correr
 

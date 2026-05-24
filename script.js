@@ -3,6 +3,24 @@ let services = [];
 let currentFilter = 'all';
 let currentSearch = '';
 
+/** Display labels for category slugs (filter buttons + service cards) */
+const CATEGORY_LABELS = {
+    canalizacao: 'Canalizador',
+    eletricidade: 'Eletricidade',
+    construcao: 'Construção',
+    limpeza: 'Limpezas',
+    jardinagem: 'Jardinagem',
+    automovel: 'Automovel',
+    pintura: 'Pintura',
+    lazer: 'Lazer',
+    veterinaria: 'Veterinária',
+    bemestar: 'Bem-Estar'
+};
+
+function getCategoryLabel(category) {
+    return CATEGORY_LABELS[category] || category;
+}
+
 /**
  * Shuffles array in place (Fisher–Yates). Used once after loading services.
  * @param {Array} array - Array to shuffle
@@ -75,7 +93,7 @@ function renderServices() {
                         <div class="service-name">${service.name}</div>
                         <div class="service-phone">📞 ${service.phone}</div>
                     </div>
-                    <div class="service-category">${service.category.toUpperCase()}</div>
+                    <div class="service-category">${getCategoryLabel(service.category)}</div>
                 </div>
                 <div class="service-info">
                     <div class="service-description">${service.description}</div>
