@@ -551,6 +551,50 @@
             "instagram": "https://www.instagram.com/lilianayoga.pt/",
             "website": "https://lilianayoga.pt/"
         }
+    },
+    {
+        "id": 52,
+        "name": "Ana Grazina - Consultora Imobiliária Predimed Boom",
+        "category": "imobiliaria",
+        "phone": "963 039 699",
+        "description": "Consultora imobiliária em Évora e arredores, especializada na compra, venda e arrendamento de imóveis. Acompanho cada cliente com profissionalismo, dedicação e transparência, garantindo apoio em todo o processo. Quem trabalha com paixão, trabalha diferente. Estou deste lado para ajudar",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/ana.grazina.75",
+            "instagram": "https://www.instagram.com/anagrazina_predimedboom/"
+        }
+    },
+    {
+        "id": 53,
+        "name": "João Neves Serralharia",
+        "category": "serralharia",
+        "phone": "967 714 900",
+        "description": "Transformamos ideias em soluções à medida! Janelas e Portas de alumínio | Redes mosquiteiras | Soluções práticas e personalizadas para a sua casa ou negócio | Qualidade, profissionalismo e atenção ao detalhe em cada trabalho | Orçamentos sem compromisso",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/JNeves10",
+            "instagram": "https://www.instagram.com/pindja21"
+        }
+    },
+    {
+        "id": 54,
+        "name": "Lia Ramalho - Esteticista",
+        "category": "estetica",
+        "phone": "961 161 121",
+        "description": "Massagem Relaxamento | Depilação | Pedicure medical (Domicílio, apoio a idosos/lares) | Manicure normal",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/lia.ramalho.395",
+            "instagram": "https://www.instagram.com/lia.ramalho.395/"
+        }
+    },
+    {
+        "id": 55,
+        "name": "Lia Ramalho - Terapeuta Holística",
+        "category": "terapeutica",
+        "phone": "961 161 121",
+        "description": "Massagem Terapêutica | Psicologia e Nutrição Holística | Orientação Espiritual | Leitura de Mapas Numerologia | Leitura de cartas (Oráculos) | Medicinas Naturais (Chás)",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/lia.ramalho.395",
+            "instagram": "https://www.instagram.com/lia.ramalho.395/"
+        }
     }
 
 ]

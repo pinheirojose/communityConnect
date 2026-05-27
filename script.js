@@ -14,7 +14,11 @@ const CATEGORY_LABELS = {
     pintura: 'Pintura',
     lazer: 'Lazer',
     veterinaria: 'Veterinária',
-    bemestar: 'Bem-Estar'
+    bemestar: 'Bem-Estar',
+    imobiliaria: 'Imobiliária',
+    serralharia: 'Serralharia',
+    estetica: 'Estética',
+    terapeutica: 'Terapeutica'
 };
 
 function getCategoryLabel(category) {
