@@ -595,6 +595,40 @@
             "facebook": "https://www.facebook.com/lia.ramalho.395",
             "instagram": "https://www.instagram.com/lia.ramalho.395/"
         }
+    },
+    {
+        "id": 56,
+        "name": "Medievora",
+        "category": "construcao",
+        "phone": "967 310 879",
+        "description": "Terraplanagem | Movimento de terras | Infraestruturas | Construção de Charcas e Barragens | Construção de estradas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/medievora",
+            "instagram": "https://www.instagram.com/medievora/",
+            "website": "https://medievora.pt/"
+        }
+    },
+    {
+        "id": 57,
+        "name": "TerraNex",
+        "category": "jardinagem",
+        "phone": "962 282 277",
+        "description": "Limpeza de terrenos, corte de ervas e vegetação com robô ",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61583327177099"
+        }
+    },
+    {
+        "id": 58,
+        "name": "SmartBox",
+        "category": "armazem",
+        "phone": "937 063 730",
+        "description": "Guarda-Móveis | Box | Armazém de Arrumos | Mudanças ",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/smartboxevora",
+            "instagram": "https://www.instagram.com/smartboxevora/",
+            "website": "https://smartbox-evora.pt/"
+        }
     }
 
 ]
