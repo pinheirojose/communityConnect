@@ -18,7 +18,8 @@ const CATEGORY_LABELS = {
     imobiliaria: 'Imobiliária',
     serralharia: 'Serralharia',
     estetica: 'Estética',
-    terapeutica: 'Terapeutica'
+    terapeutica: 'Terapeutica',
+    armazem: 'Armazém'
 };
 
 function getCategoryLabel(category) {
