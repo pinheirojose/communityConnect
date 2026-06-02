@@ -1,0 +1,29 @@
+{
+  "id": "/",
+  "name": "Évora Serviços",
+  "short_name": "Évora Serviços",
+  "description": "Serviços locais em Évora: pesquise por categoria e encontre profissionais de confiança.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "pt-PT",
+  "dir": "ltr",
+  "categories": ["business", "lifestyle"],
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
