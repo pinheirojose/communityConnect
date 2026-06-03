@@ -629,6 +629,25 @@
             "instagram": "https://www.instagram.com/smartboxevora/",
             "website": "https://smartbox-evora.pt/"
         }
+    },
+    {
+        "id": 59,
+        "name": "Filipe Calhau",
+        "category": "jardinagem",
+        "phone": "964 459 814",
+        "description": "Venda e instalação de relva artificial, Instalação de deck e Piscina de superfície",
+        "socialMedia": {
+        }
+    },
+    {
+        "id": 60,
+        "name": "Filipe Calhau",
+        "category": "construcao",
+        "phone": "964 459 814",
+        "description": "Pequenas remodelações de interiores e exteriores em habitação",
+        "socialMedia": {
+        }
     }
+
 
 ]
