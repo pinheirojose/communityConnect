@@ -19,7 +19,8 @@ const CATEGORY_LABELS = {
     serralharia: 'Serralharia',
     estetica: 'Estética',
     terapeutica: 'Terapeutica',
-    armazem: 'Armazém'
+    armazem: 'Armazém',
+    educacao: 'Educação'
 };
 
 function getCategoryLabel(category) {
