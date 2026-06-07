@@ -36,7 +36,7 @@
         "id": 4,
         "name": "5 à Sec",
         "category": "limpeza",
-        "phone": "935336811",
+        "phone": "935 336 811",
         "description": "As lavandarias 5àsec surgiram em 1968 com base num conceito inovador de oferta de prestação de serviços de limpeza a seco e lavandaria acessível a todos, apresentando uma tabela de preços simples com apenas 5 preços (daí o «5» de 5àsec) e uma entrega rápida dos artigos.",
         "socialMedia": {
             "facebook": "https://www.facebook.com/5asecportugal",
@@ -646,6 +646,17 @@
         "phone": "964 459 814",
         "description": "Pequenas remodelações de interiores e exteriores em habitação",
         "socialMedia": {
+        }
+    },
+    {
+        "id": 61,
+        "name": "CrescerMais.pt",
+        "category": "educacao",
+        "phone": "967 418 561",
+        "description": " A CrescerMais.pt é um projeto de desenvolvimento infantil e apoio às famílias que promove experiências educativas, acompanhamento individualizado e atividades em contacto com a natureza  Babysitting educativo | Campos de férias (Programa Férias na Quinta) | Atividades na natureza | Eventos infantis | Tutorias e apoio ao estudo | Workshops de parentalidade | Orientação e educação parental",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/crescermaispt",
+            "instagram": "https://www.instagram.com/crescermais.pt"
         }
     }
 
