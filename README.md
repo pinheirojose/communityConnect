@@ -8,6 +8,28 @@ O site está oficialmente publicado em:
 
 **https://www.evoraservicos.pt**
 
+## Adicionar ao ecrã inicial
+
+Pode guardar o site no telemóvel como uma aplicação — abre em ecrã completo, com o ícone de **Évora Serviços**.
+
+### iPhone / iPad (Safari)
+
+1. Abra **https://www.evoraservicos.pt** no **Safari** (noutros browsers esta opção pode não aparecer).
+2. Toque no botão **Partilhar** (ícone de quadrado com seta para cima), na barra inferior ou superior.
+3. Deslize para baixo e escolha **Adicionar ao Ecrã Principal**.
+4. Confirme o nome **Évora Serviços** e toque em **Adicionar**.
+
+O atalho fica no ecrã principal, ao lado das outras aplicações.
+
+### Android (Chrome)
+
+1. Abra **https://www.evoraservicos.pt** no **Chrome**.
+2. Toque no menu **⋮** (três pontos), no canto superior direito.
+3. Escolha **Adicionar ao ecrã inicial** ou **Instalar aplicação** (o texto pode variar consoante a versão do Chrome).
+4. Confirme o nome **Évora Serviços** e toque em **Adicionar** ou **Instalar**.
+
+O atalho fica no ecrã inicial ou na gaveta de aplicações.
+
 ## Como correr
 
 Para correr num servidor local. 
