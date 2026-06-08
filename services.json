@@ -658,6 +658,17 @@
             "facebook": "https://www.facebook.com/crescermaispt",
             "instagram": "https://www.instagram.com/crescermais.pt"
         }
+    },
+    {
+        "id": 62,
+        "name": "Centro Certo Explicações",
+        "category": "educacao",
+        "phone": "967 418 561",
+        "description": "Explicações e Apoio Pedagógico a Todas as Disciplinas para Todos os Níveis de Ensino.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/crescermaispt",
+            "website": "https://centrocerto.blogspot.com/"
+        }
     }
 
 

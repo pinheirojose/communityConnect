@@ -5,22 +5,22 @@ let currentSearch = '';
 
 /** Display labels for category slugs (filter buttons + service cards) */
 const CATEGORY_LABELS = {
-    canalizacao: 'Canalizador',
-    eletricidade: 'Eletricidade',
-    construcao: 'Construção',
-    limpeza: 'Limpezas',
-    jardinagem: 'Jardinagem',
-    automovel: 'Automovel',
-    pintura: 'Pintura',
-    lazer: 'Lazer',
-    veterinaria: 'Veterinária',
-    bemestar: 'Bem-Estar',
-    imobiliaria: 'Imobiliária',
-    serralharia: 'Serralharia',
-    estetica: 'Estética',
-    terapeutica: 'Terapeutica',
     armazem: 'Armazém',
-    educacao: 'Educação'
+    automovel: 'Automovel',
+    bemestar: 'Bem-Estar',
+    canalizacao: 'Canalizador',
+    construcao: 'Construção',
+    educacao: 'Educação',
+    eletricidade: 'Eletricidade',
+    estetica: 'Estética',
+    imobiliaria: 'Imobiliária',
+    jardinagem: 'Jardinagem',
+    lazer: 'Lazer',
+    limpeza: 'Limpezas',
+    pintura: 'Pintura',
+    serralharia: 'Serralharia',
+    terapeutica: 'Terapêutica',
+    veterinaria: 'Veterinária'
 };
 
 function getCategoryLabel(category) {
