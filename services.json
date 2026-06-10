@@ -669,6 +669,54 @@
             "facebook": "https://www.facebook.com/crescermaispt",
             "website": "https://centrocerto.blogspot.com/"
         }
+    },
+    {
+        "id": 63,
+        "name": "Nuno Júlio - Grupo Motorpor",
+        "category": "automovel",
+        "phone": "924 378 084",
+        "description": "Consultor Automóvel - Venda de viaturas novas Fiat, Jeep, Abarth, Alfa Romeo, Fiat Professional | Financiamentos e Seguros",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/nunojuliogrupomotorpor",
+            "instagram": "https://www.instagram.com/nuno.juliogrupomotorpor/",
+            "google": "https://share.google/3Fs8lo8oJMTElab5T"
+        }
+    },
+    {
+        "id": 64,
+        "name": "Sara Tristão - Centro de Estética",
+        "category": "estetica",
+        "phone": "968 353 575",
+        "description": "Serviços de Estética - Unhas | Laser | Lifting | Massagens | Head-Spa | Pressoterapia",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/saratristaocentroestetica/",
+            "instagram": "https://www.instagram.com/saratristao_centroestetica/",
+            "google": "https://share.google/IKKM03SZikBiJekhe"
+        }
+    },
+    {
+        "id": 65,
+        "name": "Ana Martins - Designer de Sobrancelhas",
+        "category": "estetica",
+        "phone": "930 423 746",
+        "description": "Serviços Personalizados - Threading | Henna | Brow Lamination |  Hydra Gloss | Spa Labial",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/browsdesigneranamartins",
+            "instagram": "https://www.instagram.com/browsdesigner_anamartins/",
+            "google": "https://share.google/NcbyoautO07AQkRka"
+        }
+    },
+    {
+        "id": 66,
+        "name": "Tinta & Pano Studio",
+        "category": "personalizacao",
+        "phone": "962 959 487",
+        "description": "Serviço personalizado - Brindes | T-Shirts | Sweats | Bonés | Canecas | Porta-Chaves ",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/tintaepanostudio/",
+            "instagram": "https://www.instagram.com/tintaepanostudio/",
+            "google": "https://share.google/Td4tddcrmURzrYlAD"
+        }
     }
 
 

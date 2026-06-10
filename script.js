@@ -17,6 +17,7 @@ const CATEGORY_LABELS = {
     jardinagem: 'Jardinagem',
     lazer: 'Lazer',
     limpeza: 'Limpezas',
+    personalizacao: 'Personalização',
     pintura: 'Pintura',
     serralharia: 'Serralharia',
     terapeutica: 'Terapêutica',
