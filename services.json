@@ -711,11 +711,23 @@
         "name": "Tinta & Pano Studio",
         "category": "personalizacao",
         "phone": "962 959 487",
-        "description": "Serviço personalizado - Brindes | T-Shirts | Sweats | Bonés | Canecas | Porta-Chaves ",
+        "description": "Serviço Personalizado - Brindes | T-Shirts | Sweats | Bonés | Canecas | Porta-Chaves ",
         "socialMedia": {
             "facebook": "https://www.facebook.com/tintaepanostudio/",
             "instagram": "https://www.instagram.com/tintaepanostudio/",
             "google": "https://share.google/Td4tddcrmURzrYlAD"
+        }
+    },
+    {
+        "id": 67,
+        "name": "ArtLayer3D",
+        "category": "personalizacao",
+        "phone": "935 134 890",
+        "description": "Serviço de Impressão 3D Personalizavel - Transformação de ideias em realidade através de impressão 3D. Criação de peças personalizadas | Brindes | Troféus | Acessórios | Soluções à medida e prototipagem",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61583192413525",
+            "instagram": "https://www.instagram.com/artlayer3d",
+            "google": "https://maps.app.goo.gl/rgCXgAD2dCe39PvE8"
         }
     }
 
