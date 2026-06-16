@@ -183,10 +183,16 @@ body {
 
 /* Category button group */
 .category-filter {
-    display: none;
+    display: flex;
     gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
+}
+
+/* Mobile: show only Contactos / Apoia shortcuts */
+.category-filter .category-btn:not(.scroll-btn) {
+    display: none;
 }
 
 /* Pill buttons */
@@ -639,7 +645,11 @@ body {
     }
 
     .category-filter {
-        display: flex;
+        margin-top: 0;
+    }
+
+    .category-filter .category-btn:not(.scroll-btn) {
+        display: inline-block;
     }
 
     .services-grid {
