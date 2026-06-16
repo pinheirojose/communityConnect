@@ -9,6 +9,7 @@ const CATEGORY_LABELS = {
     automovel: 'Automovel',
     bemestar: 'Bem-Estar',
     canalizacao: 'Canalizador',
+    cidadao: 'Cidadão',
     construcao: 'Construção',
     educacao: 'Educação',
     eletricidade: 'Eletricidade',
@@ -19,6 +20,8 @@ const CATEGORY_LABELS = {
     limpeza: 'Limpezas',
     personalizacao: 'Personalização',
     pintura: 'Pintura',
+    publicidade: 'Publicidade',
+    saude: 'Saúde',
     serralharia: 'Serralharia',
     terapeutica: 'Terapêutica',
     veterinaria: 'Veterinária'
