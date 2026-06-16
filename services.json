@@ -729,6 +729,39 @@
             "instagram": "https://www.instagram.com/artlayer3d",
             "google": "https://maps.app.goo.gl/rgCXgAD2dCe39PvE8"
         }
+    },
+    {
+        "id": 68,
+        "name": "WeConnect - Ao Serviço do Cidadão",
+        "category": "cidadao",
+        "phone": "928 134 228 | 266 706 162",
+        "description": "Serviços de - Notariado | Documentação Automóvel (legalização e homologação de veículos; registo automóvel) | Renovação de cartas de condução | Telecomunicações | Energias",
+        "socialMedia": {
+            "google": "https://share.google/ZzfqLpZc2WnYY4CyZ"
+        }
+    },
+    {
+        "id": 69,
+        "name": "VinarteCreations",
+        "category": "publicidade", 
+        "phone": "962 532 373 | 961 084 246",
+        "description": "Vinil e Publicidade | Montras | Viaturas | Decoração",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61557879264722",
+            "instagram": "https://www.instagram.com/vinarte_creations/"
+        }
+    },
+    {
+        "id": 70,
+        "name": "Clínica Dentária Sorri Dente",
+        "category": "saude", 
+        "phone": "933 090 443 | 266 744 489",
+        "description": "Medicina Dentária - Odontopediatria | Ortodontia | Prótese Dentária | Patologia Oral | Implantologia | Dentisteria ",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100088504167181",
+            "instagram": "https://www.instagram.com/dentistaevora/",
+            "website": "https://clinicasorridenteevora.com/"
+        }
     }
 
 

@@ -9,6 +9,7 @@ const CATEGORY_LABELS = {
     automovel: 'Automovel',
     bemestar: 'Bem-Estar',
     canalizacao: 'Canalizador',
+    cidadao: 'Cidadão',
     construcao: 'Construção',
     educacao: 'Educação',
     eletricidade: 'Eletricidade',
@@ -19,6 +20,8 @@ const CATEGORY_LABELS = {
     limpeza: 'Limpezas',
     personalizacao: 'Personalização',
     pintura: 'Pintura',
+    publicidade: 'Publicidade',
+    saude: 'Saúde',
     serralharia: 'Serralharia',
     terapeutica: 'Terapêutica',
     veterinaria: 'Veterinária'
@@ -26,6 +29,33 @@ const CATEGORY_LABELS = {
 
 function getCategoryLabel(category) {
     return CATEGORY_LABELS[category] || category;
+}
+
+function populateCategorySelect() {
+    const select = document.getElementById('categorySelect');
+    if (!select) return;
+
+    const options = ['<option value="all">Todos</option>'];
+    Object.entries(CATEGORY_LABELS).forEach(([slug, label]) => {
+        options.push(`<option value="${slug}">${label}</option>`);
+    });
+    select.innerHTML = options.join('');
+}
+
+function setActiveCategoryButton(category) {
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        if (!btn.classList.contains('scroll-btn')) {
+            btn.classList.toggle('active', btn.dataset.category === category);
+        }
+    });
+}
+
+function syncCategoryControls() {
+    const select = document.getElementById('categorySelect');
+    if (select) {
+        select.value = currentFilter;
+    }
+    setActiveCategoryButton(currentFilter);
 }
 
 /**
@@ -154,17 +184,21 @@ document.querySelectorAll('.category-btn').forEach(btn => {
         if (btn.classList.contains('scroll-btn')) {
             return;
         }
-        
-        document.querySelectorAll('.category-btn').forEach(b => {
-            if (!b.classList.contains('scroll-btn')) {
-                b.classList.remove('active');
-            }
-        });
-        e.target.classList.add('active');
+
         currentFilter = e.target.dataset.category;
+        syncCategoryControls();
         renderServices();
     });
 });
+
+const categorySelect = document.getElementById('categorySelect');
+if (categorySelect) {
+    categorySelect.addEventListener('change', (e) => {
+        currentFilter = e.target.value;
+        syncCategoryControls();
+        renderServices();
+    });
+}
 
 /**
  * Scroll helper for footer shortcut buttons
@@ -189,6 +223,8 @@ function setupScrollShortcut(buttonId, targetId) {
  * Loads services data from the JSON file
  */
 document.addEventListener('DOMContentLoaded', function() {
+    populateCategorySelect();
+    syncCategoryControls();
     loadServicesData();
     setupScrollShortcut('scrollToContactos', 'contactSection');
     setupScrollShortcut('scrollToApoia', 'supportSection');

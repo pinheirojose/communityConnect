@@ -155,12 +155,44 @@ body {
     background: #ffffff;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.category-select-wrap {
+    display: block;
+}
+
+.category-select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #495057;
+    font-size: 0.95rem;
+}
+
 /* Category button group */
 .category-filter {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
+}
+
+/* Mobile: show only Contactos / Apoia shortcuts */
+.category-filter .category-btn:not(.scroll-btn) {
+    display: none;
 }
 
 /* Pill buttons */
@@ -608,6 +640,18 @@ body {
 
 /* Larger screens (tablet & desktop) */
 @media (min-width: 600px) {
+    .category-select-wrap {
+        display: none;
+    }
+
+    .category-filter {
+        margin-top: 0;
+    }
+
+    .category-filter .category-btn:not(.scroll-btn) {
+        display: inline-block;
+    }
+
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
