@@ -762,6 +762,16 @@
             "instagram": "https://www.instagram.com/dentistaevora/",
             "website": "https://clinicasorridenteevora.com/"
         }
+    },
+    {
+        "id": 71,
+        "name": "LIMPÉVORA - Serviços de limpeza",
+        "category": "limpeza", 
+        "phone": "928 415 210",
+        "description": "Serviços de Limpeza Profissional eficiente, cuidadoso e adaptado às necessidades de cada cliente | Limpezas domésticas profundas e serviços de manutenção semanal | Limpezas pós-laborais e pós-obras | Prestamos serviços em clínicas, lojas, alojamentos locais, ginásios, escritórios, condomínios e diversos espaços comerciais e residenciais.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=61579524629962"
+        }
     }
 
 
