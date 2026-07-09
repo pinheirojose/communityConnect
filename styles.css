@@ -77,9 +77,10 @@ body {
 .header {
     background: #ffffff;
     color: #2c3e50;
-    padding: 40px 15px 30px;
+    padding: 40px 15px 52px;
     text-align: center;
     border-bottom: 1px solid #e8ecef;
+    position: relative;
 }
 
 .header-brand {
@@ -106,6 +107,28 @@ body {
 .header .subtitle {
     max-width: 720px;
     margin: 10px auto 0;
+}
+
+.header-social {
+    position: absolute;
+    right: 15px;
+    bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-social-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+.header-social-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 /* .controls {
