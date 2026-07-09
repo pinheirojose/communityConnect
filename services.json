@@ -772,6 +772,27 @@
         "socialMedia": {
             "facebook": "https://www.facebook.com/profile.php?id=61579524629962"
         }
+    },
+    {
+        "id": 72,
+        "name": "Mágicos da Limpeza",
+        "category": "limpeza", 
+        "phone": "962 802 276",
+        "description": "Limpezas de todo o tipo - Moradias | Escritórios | Fim de obra | Alojamentos locais | Tratamento de roupas",
+        "socialMedia": {
+            "instagram": "https://www.instagram.com/magicosdalimpeza59"
+        }
+    }
+    ,
+    {
+        "id": 73,
+        "name": "Alentejo Janelas Internorm",
+        "category": "construcao", 
+        "phone": "965 021 849",
+        "description": "Comercialização e montagem de janelas Internorm (Marca Austriaca altamente conceituada em qualidade, variedade e indicies térmicos) | Comercialização e montagem de portas Internorm (Marca Austriaca altamente conceituada em qualidade, variedade e indicies térmicos) | Comercialização e montagem de portas Internorm (Marca Austriaca altamente conceituada em qualidade, variedade e indicies térmicos) | Comercialização e montagem de portas de entrada com oferta clássica ou mais contemporânea de alta segurança",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/profile.php?id=100075917425128"
+        }
     }
 
 
