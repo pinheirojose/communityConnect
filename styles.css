@@ -15,7 +15,6 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	/* opacity:.20; */
     min-height: 100vh;
     padding: 15px;
 }
@@ -130,15 +129,6 @@ body {
     align-items: center;
     gap: 8px;
 }
-
-/* .controls {
-    padding: 20px 15px;
-    background: rgba(74, 172, 254, 0.05);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: stretch;
-} */
 
 /* Search + filter toolbar */
 .controls {
@@ -398,61 +388,6 @@ body {
     font-size: 18px;
 }
 
-/* Ratings footer */
-.rating-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid #f0f0f0;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-/* Stars wrapper */
-.stars {
-    display: flex;
-    gap: 4px;
-}
-
-/* Disable pointer when already rated */
-.stars.rated .star {
-    cursor: not-allowed;
-    opacity: 0.6;
-}
-
-.stars.rated .star:hover {
-    transform: none;
-}
-
-/* "You rated" text */
-.rated-indicator {
-    color: #28a745;
-    font-weight: 600;
-    font-size: 0.8rem;
-}
-
-/* Individual star */
-.star {
-    font-size: 1.1rem;
-    color: #ddd;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.star:hover,
-.star.filled {
-    color: #ffd700;
-    transform: scale(1.1);
-}
-
-/* Rating metadata */
-.rating-info {
-    font-size: 0.85rem;
-    color: #666;
-}
-
 /* Empty-state placeholder */
 .empty-state {
     text-align: center;
@@ -485,36 +420,6 @@ body {
 .contact-section {
     width: 100%;
     max-width: 860px;
-}
-
-.footer-section h3 {
-    color: #1a1a1a;
-    font-size: 1.1rem;
-    margin-bottom: 12px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
-}
-
-.footer-section p {
-    color: #6c757d;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-bottom: 8px;
-}
-
-.footer-section a {
-    color: #495057;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.footer-section a:hover {
-    color: #212529;
-    text-decoration: underline;
-}
-
-/* Contact section in footer */
-.contact-section {
     background: #ffffff;
     border: 1px solid #e9ecef;
     border-radius: 12px;
@@ -615,10 +520,6 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     border-color: #adb5bd;
-}
-
-.support-icon-coffee i {
-    color: #c56d2d;
 }
 
 .support-icon-kofi i {
